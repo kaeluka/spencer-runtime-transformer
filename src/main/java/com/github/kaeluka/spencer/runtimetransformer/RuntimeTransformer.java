@@ -1,9 +1,9 @@
-package org.spencer.RuntimeTransformer;
+package com.github.kaeluka.spencer.runtimetransformer;
 
+import com.github.kaeluka.instrumentation.Instrument;
+import com.github.kaeluka.instrumentation.Util;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
-import org.spencer.instrumentation.Instrument;
-import org.spencer.instrumentation.Util;
 
 import java.io.File;
 import java.io.FileOutputStream;
